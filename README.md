@@ -76,8 +76,8 @@ pip3 install notebook
 2.  В режиме REPL выполните следующие команды:
     ```julia
     using Pkg
-    Pkg.add("Ijulia")
-    Pkg.build("Ijulia")
+    Pkg.add("IJulia")
+    Pkg.build("IJulia")
     ```
 3.  После установки вы можете запустить Jupyter Notebook с поддержкой Julia, выполнив в REPL Julia:
     ```julia
