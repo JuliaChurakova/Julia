@@ -50,7 +50,7 @@ curl -fsSL https://install.julialang.org | sh
 
 ### Установка Jupyter Notebook/JupyterLab
 1. **Установка pip**:
-        ```bash
+```bash
     sudo apt update
     sudo apt install python3-pip
 ```
