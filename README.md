@@ -62,13 +62,13 @@ python3 -m pip install --upgrade pip
 
 3. **Установка Jupyter Notebook**:
 ```bash
-pip3 install notebook
+pip3 install jupyter notebook
 ```
 
 4. **Дополнительная установка JupyterLab**(более современная и функциональная среда, развивающая идеи классического Notebook):
 
 ```bash
-pip3 install jupyterlab
+pip3 install jupyter lab
 ```    
 
 Чтобы использовать Julia в Jupyter Notebook, необходимо установить пакет `IJulia`, который добавляет ядро Julia в Jupyter.
