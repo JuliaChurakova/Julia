@@ -73,7 +73,8 @@ curl -fsSL https://install.julialang.org | sh
 
 5. Альтернативный способ установки с использованием **pipx** (утилита для изоляции установки пакетов): 
 ``` 
-	pip install pipx 
+	sudo apt install pipx 
+	pipx ensurepath
 	pipx install notebook 
 	pipx install jupyterlab 
 ``` 
