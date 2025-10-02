@@ -51,31 +51,31 @@ curl -fsSL https://install.julialang.org | sh
 ### Установка Jupyter Notebook/JupyterLab
 1. **Установка pip**:
 ```bash
-sudo apt update
-sudo apt install python3-pip
+	sudo apt update
+	sudo apt install python3-pip
 ```
 
 2.  **Обновление pip**:
 ```bash
-python3 -m pip install --upgrade pip
+	python3 -m pip install --upgrade pip
 ```
 
 3. **Установка Jupyter Notebook**:
 ```bash
-pip3 install jupyter notebook
+	pip3 install jupyter notebook
 ```
 
 4. **Дополнительная установка JupyterLab**(более современная и функциональная среда, развивающая идеи классического Notebook):
 
 ```bash
-pip3 install jupyter lab
+	pip3 install jupyter lab
 ```    
 
 5. Альтернативный способ установки с использованием **pipx** (утилита для изоляции установки пакетов): 
 ``` 
-pip install pipx 
-pipx install notebook 
-pipx install jupyterlab 
+	pip install pipx 
+	pipx install notebook 
+	pipx install jupyterlab 
 ``` 
 
 Вместо обычной установки через **pip**, можно использовать **pipx**, чтобы установить каждый из этих пакетов в изолированное виртуальное окружение, что поможет избежать конфликтов версий с другими пакетами (Если вы установили Jupyter через **pipx**, то для добавления Python-пакетов используйте команду pipx inject). 
@@ -85,14 +85,14 @@ pipx install jupyterlab
 1.  Запустите REPL Julia (введя `julia` в терминале).
 2.  В режиме REPL выполните следующие команды:
     ```julia
-using Pkg
-Pkg.add("IJulia")
-Pkg.build("IJulia")
+	using Pkg
+	Pkg.add("IJulia")
+	Pkg.build("IJulia")
     ```
 3.  После установки вы можете запустить Jupyter Notebook с поддержкой Julia, выполнив в REPL Julia:
     ```julia
-using IJulia
-notebook()
+	using IJulia
+	notebook()
     ```
     Либо просто запустите **jupyter notebook** или **jupyter lab** из терминала – при создании нового блокнота в списке доступных ядер появится вариант "Julia".
 
