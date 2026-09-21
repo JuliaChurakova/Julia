@@ -18,32 +18,51 @@
 
 Пособие структурно разделено на две взаимосвязанные части, материалы которых представлены в формате **PDF** и **Jupyter**.
 
-Первая часть **Julia_1** посвящена освоению базовых концепций и синтаксиса языка программирования Julia. Состоит из 12 глав, охватывающих:
-- Общие сведения о языке Julia.
-- Структуры данных.
-- Управляющие конструкции языка Julia.
-- Функции в Julia.
-- Примеры программ на языке Julia.
-- Модули.
-- Макросы.
-- Инструменты графического представления результатов.
-- Визуальное программирование.
-- Форматированный вывод.
-- Файлы в Julia.
-- Использование C/C++ и Fortran.
+##Содержание
 
+### Часть 1. Основы языка Julia
 
-Вторая часть **Julia_2** охватывает практическое применение Julia для решения прикладных задач. Состоит из 8 глав:
-- Решение задач линейной алгебры.
-- Решение задач обработки эксперимента.
-- Элементарная теория чисел.
-- Криптография.
-- Нелинейные уравнения и системы в Julia.
-- Численное интегрирование.
-- Численное решение обыкновенных дифференциальных уравнений.
-- Численное решение уравнений в частных производных.
+**Целиком:**
+- [Julia_1.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_full/Julia_1.ipynb)
+- [Julia_1.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_full/Julia_1.pdf)
 
+**По главам:**
 
+| № | Глава | Notebook | PDF |
+|---|-------|----------|-----|
+| 1 | Общие сведения о языке Julia | [chapter_01.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_01.ipynb) | [chapter_01.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_01.pdf) |
+| 2 | Структуры данных | [chapter_02.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_02.ipynb) | [chapter_02.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_02.pdf) |
+| 3 | Управляющие конструкции | [chapter_03.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_03.ipynb) | [chapter_03.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_03.pdf) |
+| 4 | Функции в Julia | [chapter_04.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_04.ipynb) | [chapter_04.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_04.pdf) |
+| 5 | Примеры программ | [chapter_05.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_05.ipynb) | [chapter_05.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_05.pdf) |
+| 6 | Модули | [chapter_06.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_06.ipynb) | [chapter_06.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_06.pdf) |
+| 7 | Макросы | [chapter_07.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_07.ipynb) | [chapter_07.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_07.pdf) |
+| 8 | Инструменты графического представления результатов | [chapter_08.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_08.ipynb) | [chapter_08.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_08.pdf) |
+| 9 | Визуальное программирование | [chapter_09.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_09.ipynb) | [chapter_09.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_09.pdf) |
+| 10 | Форматированный вывод | [chapter_10.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_10.ipynb) | [chapter_10.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_10.pdf) |
+| 11 | Файлы в Julia | [chapter_11.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_11.ipynb) | [chapter_11.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_11.pdf) |
+| 12 | Использование C/C++ и Fortran | [chapter_12.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_12.ipynb) | [chapter_12.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part1_chapters/chapter_12.pdf) |
+
+---
+
+### Часть 2. Прикладные задачи
+
+**Целиком:**
+- [Julia_2.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part2_full/Julia_2.ipynb)
+- [Julia_2.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part2_full/Julia_2.pdf)
+
+**По главам:**
+
+| № | Глава | Notebook | PDF |
+|---|-------|----------|-----|
+| 1 | Решение задач линейной алгебры | [chapter_01.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_01.ipynb) | [chapter_01.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_01.pdf) |
+| 2 | Решение задач обработки эксперимента | [chapter_02.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_02.ipynb) | [chapter_02.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_02.pdf) |
+| 3 | Элементарная теория чисел | [chapter_03.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_03.ipynb) | [chapter_03.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_03.pdf) |
+| 4 | Криптография | [chapter_04.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_04.ipynb) | [chapter_04.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_04.pdf) |
+| 5 | Нелинейные уравнения и системы | [chapter_05.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_05.ipynb) | [chapter_05.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_05.pdf) |
+| 6 | Численное интегрирование | [chapter_06.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_06.ipynb) | [chapter_06.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_06.pdf) |
+| 7 | Численное решение ОДУ | [chapter_07.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_07.ipynb) | [chapter_07.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_07.pdf) |
+| 8 | Численное решение уравнений в частных производных | [chapter_08.ipynb](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_08.ipynb) | [chapter_08.pdf](https://github.com/JuliaChurakova/Julia/blob/main/part2_chapters/chapter_08.pdf) |
 
 ---
 
